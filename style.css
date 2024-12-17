@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Quattrocento Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+  box-sizing: border-box;
+}
+.header {
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+}
+.main-container {
+  background: url(image/World_Horizon_of_Existence.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+.main-container .application {
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+  max-width: 850px;
+  width: 80%;
+  background-color: rgba(255, 255, 255, 0.7);
+  height: fit-content;
+  border-radius: 7px;
+  margin: 200px;
+}
+.application .app-title {
+  background-color: rgba(80, 80, 80, 0.7);
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  font-weight: 700;
+  border-bottom: 3px solid #b8b8b8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+.search-box input {
+  padding: 5px;
+  width: 60%;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #505050;
+  font-size: 16px;
+  background-color: transparent;
+}
+.search-box #search-btn {
+  padding: 10px 5px;
+  width: 25%;
+  background-color: #e48585;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 700;
+  transition: 0.5s ease;
+}
+.search-box #random-btn {
+  padding: 10px 5px;
+  width: 30%;
+  background-color: #965cd1;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 700;
+  transition: 0.5s ease;
+}
+.search-box #search-btn:hover,
+.search-box #random-btn:hover {
+  outline: 5px solid #fff;
+}
+.result h3 {
+  font-size: 30px;
+  color: #505050;
+  font-weight: 700;
+}
+.result .word {
+  margin-top: 50px;
+}
+.result .synonyms h4{
+  font-weight: 700;
+}
+.result button {
+  background-color: transparent;
+  color: #505050;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+.result .word-details {
+  color: #9b8484;
+  font-size: 14px;
+  font-weight: 700;
+}
+.word-definition {
+  color: #505050;
+}
+.word-example {
+  color: #505050;
+  border-left: 5px solid #505050;
+}
+.result .error {
+  color: #505050;
+  font-size: 30px;
+}
